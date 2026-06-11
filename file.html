@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First_web</title>
+
+    <style>
+
+        body{
+            margin:0;
+            background:black;
+            color:white;
+            font-family:Arial, sans-serif;
+        }
+
+        #bg{
+            position:fixed;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+            z-index:-1;
+        }
+
+        .content{
+            padding:20px;
+        }
+
+        table{
+            border-collapse:collapse;
+            background:rgba(0,0,0,0.5);
+        }
+
+        th,td{
+            border:1px solid white;
+            padding:8px;
+        }
+
+        input,button{
+            padding:5px;
+        }
+
+        img{
+            max-width:600px;
+            width:100%;
+            height:auto;
+        }
+
+        a{
+            color:cyan;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <canvas id="bg"></canvas>
+
+    <div class="content">
+
+        <h2><em><strong>"JEC JABALPUR LIBRARY"</strong></em></h2>
+    <hr size="4" color="red"
+    <br>
+    <br>
+    <p>
+    <font size="5">
+    Welcome to glorious and oldest engineering college of 
+    central India established in1947. it has a great central
+    library which is made more accessible by making 
+    "the library Web of JEC".
+
+    </p>
+    This web contains following features:
+    </font>
+    <ul type="square">
+        <li>first year books</li>
+        <li>second year books</li>
+        <li>third year books</li>
+        <li>fourth year books</li>
+        
+    </ul>
+    
+    <!-- lorem is used to get a example paragraph -->
+    <br>
+    <br>
+    <strong>Link to official JEC Jabalpur website:</strong>
+    <A href="https://www.jecjabalpur.ac.in/">click here</A>
+    <br>
+    <br>
+    <strong>Students Fine Status :</strong>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Fine</th>
+        </tr>
+        <tr>
+            <td>Sumit</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Priyanshi</td>
+            <td>350</td>
+        </tr>
+        <tr>
+            <td>Arpit</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>shreyash</td>
+            <td>130</td>
+        </tr>
+    </table>
+    <br>
+    <strong>STUDENT LOGIN FORM: </strong>
+    <form action="http://127.0.0.1:3000/html/results.html" method="GET">
+        <div>
+            <label for="name">Enter your Name</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="gender">enter gender</label>
+            <input type="text" id="gender">
+        </div>
+        <br><br>
+        <button>Submit</button>
+        <br><br>
+        <input type="reset">
+    </form>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
